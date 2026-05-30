@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 28px 32px;
+  background-color: #f8f0f4;
+  overflow-y: auto;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .main-content { padding: 16px; }
+}
